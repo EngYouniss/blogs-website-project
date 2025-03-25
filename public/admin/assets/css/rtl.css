@@ -1,0 +1,240 @@
+/* اتجاه النص والصفحة */
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+/* تعديلات عامة للعناصر */
+.navbar,
+.sidebar,
+.footer,
+.container-fluid,
+.container-scroller,
+.main-panel,
+.content-wrapper {
+    direction: rtl;
+    text-align: right;
+}
+
+/* تعديلات الشريط الجانبي */
+.sidebar {
+    right: 0;
+    left: auto;
+}
+
+.sidebar .nav {
+    padding-right: 0;
+}
+
+.sidebar .nav-item .nav-link {
+    text-align: right;
+}
+
+.sidebar .nav-item .nav-link i {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+/* تعديلات القوائم المنسدلة */
+.dropdown-menu {
+    text-align: right;
+    right: 0;
+    left: auto;
+}
+
+.dropdown-item {
+    text-align: right;
+}
+
+/* تعديلات النصوص والعناوين */
+h1, h2, h3, h4, h5, h6,
+p, span, a, li {
+    text-align: right;
+}
+
+/* تعديلات الحقول النصية والأزرار */
+input, textarea, select, button {
+    text-align: right;
+}
+
+.input-group {
+    direction: rtl;
+}
+
+.input-group-prepend {
+    margin-left: -1px;
+    margin-right: 0;
+}
+
+.input-group-append {
+    margin-right: -1px;
+    margin-left: 0;
+}
+
+/* تعديلات الجداول */
+table {
+    direction: rtl;
+    text-align: right;
+}
+
+th, td {
+    text-align: right;
+}
+
+/* تعديلات الأيقونات */
+.mdi {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+/* تعديلات خاصة بالـ navbar */
+.navbar-nav {
+    padding-right: 0;
+}
+
+.navbar-brand-wrapper {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+/* تعديلات الـ footer */
+.footer {
+    text-align: right;
+}
+
+/* تعديلات الـ cards */
+.card {
+    text-align: right;
+}
+
+.card-header {
+    text-align: right;
+}
+
+.card-body {
+    text-align: right;
+}
+
+/* تعديلات الـ buttons */
+.btn {
+    text-align: right;
+}
+
+/* تعديلات الـ forms */
+.form-group {
+    text-align: right;
+}
+
+.form-control {
+    text-align: right;
+}
+
+/* تعديلات الـ modals */
+.modal-content {
+    text-align: right;
+}
+
+.modal-header, .modal-body, .modal-footer {
+    text-align: right;
+}
+
+/* تعديلات الـ pagination */
+.pagination {
+    justify-content: flex-end;
+}
+
+/* تعديلات الـ tabs */
+.nav-tabs {
+    padding-right: 0;
+}
+
+/* تعديلات الـ alerts */
+.alert {
+    text-align: right;
+}
+
+/* تعديلات الـ breadcrumbs */
+.breadcrumb {
+    justify-content: flex-end;
+}
+
+/* تعديلات الـ list groups */
+.list-group {
+    text-align: right;
+}
+
+.list-group-item {
+    text-align: right;
+}
+
+/* تعديلات الـ badges */
+.badge {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+/* تعديلات الـ tooltips */
+.tooltip {
+    direction: rtl;
+    text-align: right;
+}
+
+/* تعديلات الـ popovers */
+.popover {
+    direction: rtl;
+    text-align: right;
+}
+
+/* تعديلات الـ progress bars */
+.progress {
+    direction: rtl;
+}
+
+/* تعديلات الـ carousel */
+.carousel-control-prev {
+    right: auto;
+    left: 0;
+}
+
+.carousel-control-next {
+    left: auto;
+    right: 0;
+}
+
+/* تعديلات الـ accordion */
+.accordion-button {
+    text-align: right;
+}
+
+.accordion-button::after {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/* تعديلات الـ offcanvas */
+.offcanvas {
+    direction: rtl;
+    text-align: right;
+}
+
+.offcanvas-header {
+    text-align: right;
+}
+
+.offcanvas-body {
+    text-align: right;
+}
+
+/* تعديلات الـ toast */
+.toast {
+    direction: rtl;
+    text-align: right;
+}
+
+.toast-header {
+    text-align: right;
+}
+
+.toast-body {
+    text-align: right;
+}
